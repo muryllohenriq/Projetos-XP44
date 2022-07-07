@@ -10,6 +10,14 @@
     src: url(fonts/04B_30__.TTF) format('truetype');
 }
 
+/* 
+#E0E2DB
+#D2D4C8
+#B8BDB5
+#889696
+#5F7470
+*/
+
 body {
     background-color: #889696;
 }
