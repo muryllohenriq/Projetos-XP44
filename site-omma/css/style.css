@@ -14,25 +14,18 @@ nav {
     justify-content: center;
 }
 
-nav > ul > li > a {
+nav > a {
     color: white;
-}
-
-nav > ul {
-    display: flex;
-}
-
-nav > ul > li {
-    font-size: 30;
-    font-weight: 700;
-    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 15px;
 }
 
 header {
     display: flex;
     background-color: rgb(255, 181, 44);
-    align-items: center;
     justify-content: center;
     position: relative;
-    box-shadow: 0px 0px 4px 4px rgb(247, 138, 14);
+    box-shadow: 0px 0px 4px 4px rgb(160, 86, 1);
 }
