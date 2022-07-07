@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#img-banner {
+    padding: 15px 0px 15px 0px;
+}
+
+nav {
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+}
+
+nav > ul > li > a {
+    color: white;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav > ul > li {
+    font-size: 30;
+    font-weight: 700;
+    padding: 5px 30px 5px 30px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(255, 181, 44);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 0px 4px 4px rgb(247, 138, 14);
+}
