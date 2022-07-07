@@ -1,31 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #img-banner {
     padding: 15px 0px 15px 0px;
 }
 
-nav {
+header {
     display: flex;
-    background-color: orange;
+    background-color: #FFC107;
     justify-content: center;
+    position: relative;
+    box-shadow: 0px 0px 3px 4px rgb(184, 107, 19);
+}
+
+nav {
+    background-color: #FFA000;
+    text-align: center;
+    padding: 10px;
+    word-spacing: 25px;
 }
 
 nav > a {
     color: white;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: bolder;
-    padding: 15px;
+    padding: 10px;
 }
 
-header {
-    display: flex;
-    background-color: rgb(255, 181, 44);
-    justify-content: center;
-    position: relative;
-    box-shadow: 0px 0px 4px 4px rgb(160, 86, 1);
+main {
+
+}
+
+div {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+div#risoto > h1 {
+    color: #FFA000;
+}
+
+div.relacionadas {
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+div.relacionadas > h2 {
+    color: #FFA000;
+}
+
+footer {
+    background-color: #FFC107;
+    color: white;
+    font-weight: bold;
 }
