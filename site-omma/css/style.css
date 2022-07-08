@@ -20,14 +20,14 @@ header {
     box-shadow: 0px 0px 3px 4px rgb(184, 107, 19);
 }
 
-nav {
+nav#cabeçalho {
     background-color: #FFA000;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     word-spacing: 25px;
 }
 
-nav > a {
+nav#cabeçalho > a {
     color: white;
     text-decoration: none;
     font-size: 1.1em;
@@ -36,28 +36,54 @@ nav > a {
 }
 
 main {
-
+    margin-left: 120px;
+    margin-top: 150px;
 }
 
-div {
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+section {
+    display: inline-block;
 }
 
-div#risoto > h1 {
+section#esquerda {
+    width: 592px;
+}
+
+section#esquerda > h1 {
     color: #FFA000;
+    font-size: 2em;
+}
+
+section#esquerda > div > div {
+    display: inline-block;
+    border: 1px green solid;
+    border-radius: 10px;
+    padding: 8px;
+    color: green;
+    font-weight: bold;
+}
+
+#direita {
+    margin-left: 70px;
 }
 
 div.relacionadas {
     box-shadow: 1px 1px 1px 1px black;
+    width: 345px;
+    height: 400px;
+    margin-bottom: 10px;
 }
 
-div.relacionadas > h2 {
-    color: #FFA000;
+
+div.relacionadas > h3 {
+    text-align: center;
 }
 
 footer {
     background-color: #FFC107;
     color: white;
     font-weight: bold;
+}
+
+footer > p {
+    display: inline-block;
 }
