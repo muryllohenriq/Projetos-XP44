@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
-.um > img {
-    width: 100vw;
+div#um {
+    background-image: url('../img/home-img-1.png');
+    height: 900px;
+    background-position: center center;
+}
+
+#dois {
+    background-image: url(../img/home-img-2.png);
+    height: 900px;
+    background-position: center center;
 }
 
