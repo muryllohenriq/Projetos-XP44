@@ -1,12 +1,16 @@
 @charset "UTF-8";
 
-div#um {
+#um {
     background-image: url('../img/home-img-1.png');
     height: 900px;
     background-position: center center;
 }
 
 #dois {
+    display: flex;
+}
+
+#tres {
     background-image: url(../img/home-img-2.png);
     height: 900px;
     background-position: center center;
