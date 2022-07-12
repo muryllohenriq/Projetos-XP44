@@ -1,9 +1,33 @@
 @charset "UTF-8";
 
 #um {
-    background-image: url('../img/home-img-1.png');
-    height: 900px;
+    position: relative;
+    background-image: linear-gradient(
+        rgba(228, 162, 21, 0.363),rgba(236, 168, 20, 0.3)
+      ), url('../img/home-img-1.png');
+    height: 700px;
     background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    font-size: 3em;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px black;
+    justify-content: right;
+    display: flex;
+}
+
+#tres > p {
+    width: 500px;
+    font-size: 1.5em;
+}
+
+#tres > h1,p {
+    color: white;
+    justify-content: left;
 }
 
 #dois {
@@ -11,8 +35,11 @@
 }
 
 #tres {
-    background-image: url(../img/home-img-2.png);
-    height: 900px;
+    background-image: linear-gradient(
+        rgba(228, 162, 21, 0.363),rgba(236, 168, 20, 0.3)
+      ), url(../img/home-img-2.png);
+    height: 750px;
     background-position: center center;
+    background-size: cover; 
 }
 
