@@ -40,8 +40,10 @@ footer {
     color: white;
     font-weight: bold;
     display: flex;
+    padding: 17px;
 }
 
 footer > p {
-    justify-content: center;
+    padding-top: 35px;
+    padding-left: 50px;
 }

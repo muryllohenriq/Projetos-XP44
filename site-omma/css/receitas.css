@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+main > div > div > img {
+    width: 345px;
+    height: 342px;
+}
