@@ -32,6 +32,18 @@
 
 #dois {
     display: flex;
+    justify-content: center;
+}
+
+#dois > div {
+    margin: 20px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+#dois > div > img {
+    width: 400px;
+    height: 400px;
 }
 
 #tres {
