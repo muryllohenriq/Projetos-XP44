@@ -25,10 +25,10 @@
                 <h1>Muryllo Henrique</h1>
                 <h5>Front-End Developer</h5>
             </div>
-            <div id="arrow">
-                <i class="fa-solid fa-tent-arrow-down-to-line"></i>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-tent-arrow-down-to-line"></i>
             </div>
-            <div id="about">
+            <div style="display: none;" id="about">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cum fugiat tenetur veritatis soluta quasi quibusdam autem excepturi itaque. Repellat expedita vero cupiditate officia asperiores officiis impedit? Repellat, molestias fuga?</p>
             </div>
 
@@ -43,5 +43,14 @@
             </div>
         </section>
     </main>
+
+    <script>
+      function displayAbout() {
+        var arrow = document.getElementById('animation');
+        arrow.classList.toggle('rotate');
+        var display = document.getElementById('about');
+        display.classList.toggle('active');
+      }
+    </script>
   </body>
 </html>

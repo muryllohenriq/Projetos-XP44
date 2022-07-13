@@ -5,6 +5,8 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 
+/* paleta: C8C8C8, 091813 */
+
 * {
     padding: 0;
     margin: 0;
@@ -61,7 +63,7 @@ header > ul > li > a:hover {
 
 .container {
     text-align: center;
-    padding-top: 30px;
+    margin-top: 50px;
 }
 
 .container .name h1 {
@@ -72,18 +74,50 @@ header > ul > li > a:hover {
     font-size: 1.5em;
 }
 
+#arrow {
+    font-size: 2em;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+    margin-top: 15px;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+#animation {
+    transition: 300ms;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active {
+    display: block !important;
+}
+
 #about p {
     max-width: 600px;
     margin: 0 auto;
     font-weight: bold;
+    text-shadow: 2px 7px 8px black;
+    color: rgba(243, 242, 242, 0.884);
+    margin-top: 50px;
 }
 
 .form {
     width: 35%;
     margin: 0 auto;
-    border: thick double #646464;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px;
+}
+
+.form p {
+    color: rgba(243, 242, 242, 0.884);
 }
 
 .form input {
@@ -111,4 +145,27 @@ header > ul > li > a:hover {
 
 .form button:hover {
     background-position: left bottom;
+}
+
+@media only screen and (max-width: 480px) {
+    .container .name h1 {
+        font-size: 2em;
+    }
+
+    .container .name h5 {
+        font-size: 1.3em;
+    }
+
+    #about p {
+        max-width: 80%;
+        text-align: justify;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    header > ul > li {
+        font-size: 0.9em;
+    }
 }
