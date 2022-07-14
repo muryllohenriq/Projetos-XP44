@@ -6,18 +6,20 @@
         rgba(228, 162, 21, 0.363),rgba(236, 168, 20, 0.3)
       ), url('../img/home-img-1.png');
     height: 700px;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .titulo {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bolder;
     color: white;
-    text-shadow: 1px 1px black;
-    justify-content: right;
-    display: flex;
+    text-shadow: -1px 4px 13px rgba(0, 0, 0, 0.603);  
+}
+
+h1#titulo1 {
+    /* ASSISTIR AULA */
 }
 
 #tres > p {
@@ -35,23 +37,59 @@
     justify-content: center;
 }
 
-#dois > div {
-    margin: 20px;
-    border: 1px solid black;
-    width: 400px;
+.imagem {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 345px;
+    height: 342px;
 }
 
-#dois > div > img {
-    width: 400px;
-    height: 400px;
+#imagem1 {
+    background-image: url(../img/risoto.png);
 }
+
+#imagem2 {
+    background-image: url(../img/bolo-banana.png);
+}
+
+#imagem3 {
+    background-image: url(../img/tabule.png);
+}
+
+/* #dois span {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#dois button {
+    background-color: green;
+    border-style: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 185px;
+    height: 48px;
+    bottom: 20px;
+} */
 
 #tres {
+    position: relative;
     background-image: linear-gradient(
         rgba(228, 162, 21, 0.363),rgba(236, 168, 20, 0.3)
       ), url(../img/home-img-2.png);
     height: 750px;
-    background-position: center center;
-    background-size: cover; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1#titulo2 {
+    /* assistir aula */
+}
+
+#dois  div {
+    margin: 20px;
+    border: 1px solid black; 
 }
 
