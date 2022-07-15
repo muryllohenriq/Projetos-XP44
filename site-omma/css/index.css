@@ -2,28 +2,33 @@
 
 #um {
     position: relative;
-    background-image: linear-gradient(
-        rgba(228, 162, 21, 0.363),rgba(236, 168, 20, 0.3)
-      ), url('../img/home-img-1.png');
-    height: 700px;
-    background-position: center;
+    background: linear-gradient(0deg, rgba(255, 160, 0, 0.3), rgba(255, 160, 0, 0.3)), url('../img/home-img-1.png');
+    height: 638.18px;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .titulo {
-    font-size: 4em;
+    font-size: 4.2em;
     font-weight: bolder;
     color: white;
-    text-shadow: -1px 4px 13px rgba(0, 0, 0, 0.603);  
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
 
 h1#titulo1 {
     /* ASSISTIR AULA */
+    position: absolute;
+    left: 969px;
+    top: 150px;
+
 }
 
 h1#titulo2 {
-    
+    color: #FFA000;
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 80px;
 }
 
 #dois {
@@ -69,18 +74,21 @@ h1#titulo2 {
 
 #tres {
     position: relative;
-    background-image: linear-gradient(
-        rgba(228, 162, 21, 0.363),rgba(236, 168, 20, 0.3)
-      ), url(../img/home-img-2.png);
-    height: 750px;
+    background: linear-gradient(0deg, rgba(255, 193, 7, 0.4), rgba(255, 193, 7, 0.4)), url(../img/home-img-2.png);
+      height: 772px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #tres > p {
-    width: 500px;
+    position: absolute;
+    width: 424px;
+    height: 333px;
+    left: 123px;
+    top: 330px;
     font-size: 1.5em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #tres > h1,p {
@@ -90,6 +98,9 @@ h1#titulo2 {
 
 h1#titulo3 {
     /* assistir aula */
+    position: absolute;
+    left: 122px;
+    top: 160px;
 }
 
 #dois  div {

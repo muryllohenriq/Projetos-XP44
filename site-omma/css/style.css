@@ -17,13 +17,14 @@ header {
     background-color: #FFC107;
     justify-content: center;
     position: relative;
+    padding: 2px;
     box-shadow: 0px 0px 3px 4px rgb(184, 107, 19);
 }
 
 nav#cabeçalho {
     background-color: #FFA000;
     text-align: center;
-    padding: 15px;
+    padding: 13px;
     word-spacing: 25px;
 }
 
