@@ -22,14 +22,8 @@ h1#titulo1 {
     /* ASSISTIR AULA */
 }
 
-#tres > p {
-    width: 500px;
-    font-size: 1.5em;
-}
-
-#tres > h1,p {
-    color: white;
-    justify-content: left;
+h1#titulo2 {
+    
 }
 
 #dois {
@@ -84,7 +78,17 @@ h1#titulo1 {
     background-repeat: no-repeat;
 }
 
-h1#titulo2 {
+#tres > p {
+    width: 500px;
+    font-size: 1.5em;
+}
+
+#tres > h1,p {
+    color: white;
+    justify-content: left;
+}
+
+h1#titulo3 {
     /* assistir aula */
 }
 
